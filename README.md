@@ -1,22 +1,23 @@
 ## Cache
 > A private cryptographic currency with decentralised finance features.
 
-![status](https://img.shields.io/badge/Status-Not%20Ready-orange)
-[![Build status](https://ci.appveyor.com/api/projects/status/6lpfel35swkpuw1l?svg=true)](https://ci.appveyor.com/project/En4orcer/project)
-[![Windows Build](https://img.shields.io/badge/Windows%20Build-DOWNLOAD-blue)](https://ci.appveyor.com/project/En4orcer/project/build/artifacts)
-![version](https://img.shields.io/badge/Version-0.0.1-blue)
+![status](https://img.shields.io/badge/Status-Nearly%20Ready-orange)
+![version](https://img.shields.io/badge/Version-0.0.2-blue)
 
 ***
 
 ### Docs & Guides
 > Master these, master life.
 
-- [Project Ideas](https://github.com/project-en4orcer/project-documents/blob/master/project-idea.md)
-- [Build](https://github.com/project-en4orcer/project/wiki/Build)
-- Setup
-- Usage Guide
-- [Developers Notes](https://github.com/project-en4orcer/project/wiki/Developers-Notes)
-- [Testnet Environment](https://github.com/project-en4orcer/project/wiki/Testnet-Environment)
+- [Project Ideas](https://github.com/cache-core/project-documents/blob/master/project-idea.md)
+
+`*todo*`
+
+***
+
+| Build | Status | Download |
+|-------|--------|----------|
+| `master` | [![Build status](https://ci.appveyor.com/api/projects/status/bfr8v9sxt6qrctvv/branch/master?svg=true)](https://ci.appveyor.com/project/En4orcer/cache/branch/master) | [![Win x64](https://img.shields.io/badge/Win%20x64-Download-blue)](https://ci.appveyor.com/project/En4orcer/project/build/artifacts) |
 
 ***
 
@@ -24,7 +25,7 @@
 > Follow every step we take.
 
 [![discord](https://github.com/project-en4orcer/Assets/blob/master/social-icons/bubble/discord-50px.png)](https://discord.gg/PHyGJjg)
-[![github](https://github.com/project-en4orcer/Assets/blob/master/social-icons/bubble/github-50px.png)](https://github.com/project-en4orcer)
+[![github](https://github.com/project-en4orcer/Assets/blob/master/social-icons/bubble/github-50px.png)](https://github.com/cache-core)
 [![twitter](https://github.com/project-en4orcer/Assets/blob/master/social-icons/bubble/twitter-50px.png)](https://twitter.com/deven4orcer)
 
 ***
