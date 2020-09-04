@@ -16,23 +16,19 @@ namespace CryptoNote {
     const size_t   MAX_BLOCK_BLOB_SIZE = 500000000;
     const size_t   MAX_TX_SIZE = 1000000000;
 
-    /* ccx7 address prefix */
-    const uint64_t PUBLIC_ADDRESS_BASE58_PREFIX = 0x7ad4;
+    /* cxche address prefix */
+    const uint64_t PUBLIC_ADDRESS_BASE58_PREFIX = 0x29c7dd6;
     /* 20 minutes */
     const size_t   MINED_COINS_UNLOCK_WINDOW = 10;
     const uint64_t DEFAULT_TX_SPENDABLE_AGE = 10;
 
-    /* 500M */
-    const uint64_t MONEY_SUPPLY = UINT64_C(500000000000000); 
+    const uint64_t MONEY_SUPPLY = UINT64_C(50000000000000);
     const size_t   MINIMUM_MIXIN = 4;
-    const size_t   DECIMAL_POINT = 6;
-    /* smallest atomic unit */
+    const size_t   DECIMAL_POINT = 5;
     const uint64_t COIN = UINT64_C(1000000);
-    const uint64_t POINT = UINT64_C(1000);
-    /* 0.001000 CCX */
-    const uint64_t MINIMUM_FEE = UINT64_C(1000);
-    const uint64_t MINIMUM_FEE_BANKING = UINT64_C(1000);
-    /* 0.000010 CCX */ 
+    const uint64_t MINIMUM_FEE = UINT64_C(100);
+    const uint64_t MINIMUM_FEE_BANKING = UINT64_C(100);
+    const uint64_t POINT = UINT64_C(100);
     const uint64_t DEFAULT_DUST_THRESHOLD = UINT64_C(10);
 
     const uint64_t MULTIPLIER_FACTOR = 100;
@@ -88,12 +84,12 @@ namespace CryptoNote {
     static_assert(UPGRADE_VOTING_WINDOW > 1, "Bad UPGRADE_VOTING_WINDOW");
   } // namespace parameters
 
-  /* start reward */
+	/* 5 */
 	const uint64_t START_BLOCK_REWARD = (UINT64_C(5000) * parameters::POINT);
-  /* block 1 premine = 15m */
+	/* 15m */
 	const uint64_t FOUNDATION_TRUST = (UINT64_C(15000000) * parameters::COIN);
-  /* ~3 month */  
-	const uint64_t REWARD_INCREASE_INTERVAL = (UINT64_C(21900) * 3);
+	/* 60 days */  
+	const uint64_t REWARD_INCREASE_INTERVAL = (EXPECTED_NUMBER_OF_BLOCKS_PER_DAY * 60);
 
 	const char     PROJECT_NAME[] = "Cache";
 	const char     GENESIS_COINBASE_TX_HEX[] = "010a01ff0001c096b102029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121017d6775185749e95ac2d70cae3f29e0e46f430ab648abbe9fdc61d8e7437c60f8";
@@ -126,16 +122,16 @@ namespace CryptoNote {
 	const uint32_t P2P_DEFAULT_CONNECTIONS_COUNT = 8;
 	const size_t   P2P_DEFAULT_ANCHOR_CONNECTIONS_COUNT = 2;
 	const size_t   P2P_DEFAULT_WHITELIST_CONNECTIONS_PERCENT = 70;
-  /* seconds */
+	/* seconds */
 	const uint32_t P2P_DEFAULT_HANDSHAKE_INTERVAL = 60;
 	const uint32_t P2P_DEFAULT_PACKET_MAX_SIZE = 50000000;
 	const uint32_t P2P_DEFAULT_PEERS_IN_HANDSHAKE = 250;
-  /* 2 seconds */
+	/* 2 seconds */
 	const uint32_t P2P_DEFAULT_PING_CONNECTION_TIMEOUT = 2000;
-  /* 5 seconds */
+	/* 5 seconds */
 	const uint32_t P2P_DEFAULT_CONNECTION_TIMEOUT = 5000;
 	const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT = 5000;
-  /* 2 minutes */
+	/* 2 minutes */
 	const uint64_t P2P_DEFAULT_INVOKE_TIMEOUT = 60 * 2 * 1000;
 	const char     P2P_STAT_TRUSTED_PUB_KEY[] = "0000000000000000000000000000000000000000000000000000000000000000";
 } // namespace CryptoNote
