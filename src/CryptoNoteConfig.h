@@ -89,7 +89,7 @@ namespace CryptoNote {
 	/* 15m */
 	const uint64_t FOUNDATION_TRUST = (UINT64_C(15000000) * parameters::COIN);
 	/* 60 days */  
-	const uint64_t REWARD_INCREASE_INTERVAL = (EXPECTED_NUMBER_OF_BLOCKS_PER_DAY * 60);
+	const uint64_t REWARD_INCREASE_INTERVAL = ((24 * 60 * 60 / 120) * 60);
 
 	const char     PROJECT_NAME[] = "Cache";
 	const char     GENESIS_COINBASE_TX_HEX[] = "010a01ff0001c096b102029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121017d6775185749e95ac2d70cae3f29e0e46f430ab648abbe9fdc61d8e7437c60f8";
